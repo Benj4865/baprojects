@@ -1,2 +1,2 @@
 # baprojects
-My webiste hosted at GitHub
+My website hosted at GitHub
