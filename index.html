@@ -4,8 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BA Projects</title>
+
+    <style>
+        :root {
+            --bg: #0f172a;
+            --fg: #e5e7eb;
+            --muted: #9ca3af;
+            --accent: #38bdf8;
+        }
+
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background-color: var(--bg);
+            color: var(--fg);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            padding: 3rem 1.5rem;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p.subtitle {
+            color: var(--muted);
+            max-width: 600px;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 1rem;
+            border-top: 1px solid #1f2933;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+
+    <div class="container">
+        <header>
+            <h1>BA Projects</h1>
+            <p class="subtitle">
+                A collection of projects, experiments, and technical notes.
+            </p>
+        </header>
+
+        <section>
+            <h2>About</h2>
+            <p>
+                This site is a personal workspace for documenting ongoing and completed projects.
+                Content will evolve over time as projects mature.
+            </p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Project A — short description</li>
+                <li>Project B — short description</li>
+                <li>Experiments and notes</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            © 2026 BA Projects
+        </footer>
+    </div>
+
 </body>
 </html>
+
